@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Disco Painting</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Disco Painting</h1>
+    <div id="container"></div>
+    <div id="control">
+      <button name="update" id="update">Update Grid</button>
+      <input type="number" value="16" name="gridSize">
+      <div id="color-indicator"></div>
+      <form action="">
+        <input class="color-selector" type="radio" name="color" value="black"> Black <br>
+        <input class="color-selector" type="radio" name="color" value="rainbow"> Rainbow <br>
+      </form>
+      <button name="reset" id="reset">Reset</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>

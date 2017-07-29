@@ -1,0 +1,58 @@
+#container {
+  height: 720px;
+  width: 720px;
+  background-color: black;
+  margin: auto auto auto auto;
+  padding: 1px; 
+}
+
+#control {
+  height: 30px;
+  width: 720px;
+  margin: 10px auto auto auto;
+}
+
+.pixel {
+  float: left;
+  clear: bottom;
+}
+
+#reset {
+  float: right;
+}
+
+#update {
+  float: left;
+}
+
+#color-indicator {
+  display: inline-block;
+  height: 10px;
+  width: 400px;
+  background-color: black;
+  border: 1px;
+  border-color: black;
+  margin: auto auto auto 10px;
+}
+
+.color-selector {
+  float: left;
+}
+
+input {
+  width: 40px;
+  padding-left: 2px;
+}
+
+form {
+  display: inline;
+  float: right;
+}
+
+html, body {
+  background-color: #e5ebf1;
+}
+
+h1 {
+  text-align: center;
+}
